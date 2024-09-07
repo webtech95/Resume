@@ -699,7 +699,7 @@ margin-right: 50px;
 /* Form Details */
 #form{
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 140px;
 }
 .forn-heading{
     text-transform: uppercase;
@@ -734,14 +734,13 @@ margin-right: 50px;
     text-transform: uppercase;
     font-family: Rambla, sans-serif;
     font-size: 15px;
-    line-height: 26.25px;
     color: #101010;
     font-weight: 700;
 }
 .child-info p{
     font-size: 15px;
     color: #888888;
-    line-height: 26.25px;
+    line-height: 42px;
 }
 .child-form h3{
     color: #101010;
@@ -780,4 +779,39 @@ margin-right: 50px;
 .button1:hover{
     background-color: white;
     color: #101010;
+}
+/* Footer */
+#footer{
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    padding: 120px;
+    background-color: #f7f7f7;
+}
+.parent-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.parent-footer1{
+    font-family: Rambla, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #101010;
+}
+.parent-footer2{
+    font-family: Oswald, sans-serif;
+    letter-spacing: 3px;
+    line-height: 30px;
+    color: #101010;
+}
+.parent-footer2 h4{
+    font-weight: 500;
+    font-size: 40px;
+}
+.parent-footer h2{
+    font-size: 13px;
+    font-weight: 400;
+}
+.parent-footer3{
+    align-items: baseline;
 }
