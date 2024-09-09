@@ -767,7 +767,8 @@ margin-right: 50px;
     color: #101010;
     font-size: 15px;
     font-weight: 700;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-family: Road_Rage;
 }
 .child-form input{
     border: none transparent;
