@@ -1,5 +1,16 @@
 
-
+@font-face {
+    font-family:Buttercup ;
+    src: url(Font/Buttercup.ttf);
+}
+@font-face {
+    font-family: Road_Rage;
+    src: url(Font/Road_Rage.ttf);
+}
+@font-face {
+    font-family: Stanford_Breath;
+    src: url(Font/Stanford_Breath.ttf);
+}
 *{ margin: 5px 5px;
     padding: 0%;
     box-sizing: border-box;
@@ -20,12 +31,13 @@ background-size: cover;
     color: #fff;
     font-size: 32px;
     text-transform: uppercase;
-    font-family: Oswald, sans-serif;
+    letter-spacing: 5px;
+    font-family:Road_Rage ;
     position: absolute;
     left: 50%;
     top: 60%;
     transform: translate(-50%, -50%);
-    text-shadow: rgb(255, 0, 0) 2px 5px;
+    text-shadow: rgb(0, 0, 0) 2px 3px ;
 }
 .dp{
     border-radius: 60%;
@@ -40,7 +52,7 @@ background-size: cover;
 }       
 .info{
     display: block;
-    font-family: 'Oswald', sans-serif;
+    font-family: Buttercup;
     font-size: 12px;
     text-transform: uppercase;
     color: #888;
@@ -51,15 +63,15 @@ background-size: cover;
     display: block;
     font-size: 20px;
     color: rgb(0, 0, 0);
-    font-family: Oswald, sans-serif;
+    font-family: Road_Rage;
     text-transform: uppercase;
     font-weight: bolder;
-    line-height: 3;
+    letter-spacing: 5px;
 }
 /* Perent-container */
 .perent-main-manu{
     display: flex;
-        gap: 40px;
+    gap: 40px;
 }
 .Child-main-pera{
     font-family: 'Oswald', sans-serif;
@@ -77,7 +89,7 @@ background-size: cover;
     font-size: 20px;
     color: #101010    ;
     font-weight: 700;
-    font-family: Rambla, sans-serif;
+    font-family: Stanford_Breath;
     line-height: 35px;
 }
 .pera3{
@@ -147,7 +159,7 @@ background-size: cover;
 }
 .perent-about-skill-Abilities{
     font-size: 12px;
-    font-family: Oswald, sans-serif;
+    font-family: Buttercup;
     font-weight: 400;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -155,7 +167,7 @@ background-size: cover;
 }
 .perent-about-skills-my-skills{
     color: #101010;
-    font-family: 'Oswald', sans-serif;
+    font-family: Road_Rage;
     margin-bottom: 30px;
     font-weight: 500;
     font-size: 30px;
@@ -181,6 +193,7 @@ margin-right: 50px;
 }
 .child-skills-progress-bar{
     width: 100%;
+    font-family: Road_Rage;
 }
 .percent1{
     position: absolute;
@@ -248,7 +261,7 @@ margin-right: 50px;
     padding-bottom: 60px;
 }
 .service-heading{
-    font-family: Oswald, sans-serif;
+    font-family: Buttercup;
     color: #888888;
     font-size: 12px;
     letter-spacing: 5px;
@@ -257,7 +270,7 @@ margin-right: 50px;
     text-transform: uppercase; 
 }
 .service-heading2{
-    font-family: Oswald, sans-serif;
+    font-family: Road_Rage;
     color: #101010;
     font-size: 30px;
     letter-spacing: 3px;
@@ -341,7 +354,7 @@ margin-right: 50px;
     padding-left: 20px;
 }
 .about-reference{
-    font-family: Oswald, sans-serif;
+    font-family: Road_Rage;
     text-transform: uppercase;
 }
 .about-reference h4{
@@ -350,6 +363,7 @@ margin-right: 50px;
     letter-spacing: 5px;
     line-height: 26.25px;
     font-weight: 400;
+    font-family: Buttercup;
 }
 .about-reference h2{
     color: #101010;
@@ -368,7 +382,7 @@ margin-right: 50px;
     position: relative;
 }
 .perent-reference h2{
-    font-family: Rambla, sans-serif;
+    font-family: Road_Rage;
     font-size: 18px;
     color: #fff;
     font-weight: 500;
@@ -428,14 +442,14 @@ margin-right: 50px;
     font-size: 12px;
     font-weight: 400;
     line-height: 26.25px;
-    font-family: Oswald, sans-serif;
+    font-family: Buttercup;
 }
 .about-creativity h2{
     color: #101010;
     font-size: 30px;
     font-weight: 500;
     line-height: 52.25px;
-    font-family: Oswald, sans-serif;
+    font-family: Road_Rage;
 }
 /* perent-creativity-container-1 */
 .perent-creative{
@@ -447,9 +461,10 @@ margin-right: 50px;
     position: relative;
 }
 .perent-creative h3{
-    font-family: Rambla, sans-serif;
+    font-family: Road_Rage;
     font-size: 18px;
     color: #fff;
+    line-height: 3px;
     letter-spacing: 1px;
     position: absolute;
     top: 30px;
@@ -474,7 +489,7 @@ margin-right: 50px;
 }
 .child-creative-pera1, .child-creative-pera2, .child-creative-pera3{
     width: 90%;
-    height: 98%;
+    height: 93%;
     position: absolute;
     top: 0;
     left: 0;
@@ -502,10 +517,11 @@ margin-right: 50px;
     position: relative;
 }
 .perent-creative2 h3{
-    font-family: Rambla, sans-serif;
+    font-family: Road_Rage;
     font-size: 18px;
     color: #fff;
     letter-spacing: 1px;
+    line-height: 3px;
     position: absolute;
     top: 30px;
     left: 50px;
@@ -529,7 +545,7 @@ margin-right: 50px;
 }
 .child-creative-pera4, .child-creative-pera5, .child-creative-pera6{
     width: 90%;
-    height: 98%;
+    height: 93%;
     position: absolute;
     top: 0;
     left: 0;
@@ -553,7 +569,7 @@ margin-right: 50px;
     background-color: #f7f7f7;
 }
 .heading-news h4{
-    font-family: 'Oswald', sans-serif;
+    font-family: Buttercup;
     font-size: 12px;
     color: #888;
     font-weight: 400;
@@ -561,7 +577,7 @@ margin-right: 50px;
     text-transform: uppercase;
 }
 .heading-news h2{
-    font-family: Oswald, sans-serif;
+    font-family: Road_Rage;
     font-size: 30px;
     color: #101010;
     font-weight: 500;
@@ -714,6 +730,7 @@ margin-right: 50px;
     letter-spacing: 5px;
     font-weight: 400;
     line-height: 26.25px;
+    font-family: Buttercup;
 }
 .forn-heading h2{
     color: #101010;
@@ -721,6 +738,7 @@ margin-right: 50px;
     letter-spacing: 3px;
     font-weight: 500;
     line-height: 52.25px;
+    font-family: Road_Rage
 }
 .parent-form{
     font-family: Rambla, sans-serif;
@@ -785,8 +803,8 @@ margin-right: 50px;
 }
 /* Footer */
 #footer{
-    /* padding-top: 40px;
-    padding-bottom: 40px; */
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding: 120px;
     background-color: #f7f7f7;
 }
@@ -802,7 +820,7 @@ margin-right: 50px;
     color: #101010;
 }
 .parent-footer2{
-    /* font-family: Great, sans-serif; */
+    font-family: Road_Rage ;
     letter-spacing: 3px;
     line-height: 30px;
     color: #101010;
@@ -817,4 +835,55 @@ margin-right: 50px;
 }
 .parent-footer3{
     align-items: baseline;
+}
+/* Project 1 link */
+#project1{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.project-heading h5{
+    color: #888888;
+    font-size:12px;
+    letter-spacing: 5px;
+    line-height: 26.25px;
+    font-family: Buttercup;
+    text-transform: uppercase;
+}
+.project-heading h2{
+    color: #101010;
+    letter-spacing: 3px;
+    line-height: 52.5px;
+    font-family: Oswald, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.parent-project1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.child-project2{
+    font-family: Rambla, sans-serif;
+}
+.child-project2 h2{
+    font-size: 24px;
+    line-height: 42px;
+    color: #101010;
+    font-weight: 700;
+}
+.child-project2{
+    color: #888;
+    font-size: 15px;
+    line-height: 26.25px;
+}
+.child-project3{
+    color: #888;
+    font-size: 15px;
+    line-height:normal;
+    font-family: Rambla, sans-serif;
+    padding-top: 10px;
+}
+.child-project3 b{
+    color: #101010;
 }
