@@ -1,0 +1,141 @@
+*{padding: 0 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width:600px) {
+    #poster{background-image: url(images/beautiful-japanese-forest-scene.jpg);
+        height: 600px;
+        background-size: cover;
+    }
+    .focus{
+        background-color: rgba(0, 0,0,0.2);
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .focus h2{
+        width: 100%;
+        position: absolute;
+        top: 62%;
+        left: 60%;
+    }
+    .dp{
+        position: absolute;
+        top: 42;
+    }
+    /* Maim manu */
+    #main-manu{
+        padding: 22px;
+    }
+    .info{
+        text-align: center;
+    }
+    .about{
+        text-align: center;
+    }
+    .perent-main-manu{
+        flex-direction: column;
+    }
+    .child-main-img{
+        width: 100%;
+        height: auto;
+    }
+    /* My skills */
+    #skills{
+        padding: 22px;
+    }
+    .perent-about-skill-Abilities{
+        text-align: center;
+    }
+    .perent-about-skills-my-skills{
+        text-align: center;
+    }
+    .perent-about-skills{
+        flex-direction: column;
+    }
+    .child-main-details{
+        flex-direction: column;
+        gap: 0;
+    }
+    /* My Service */
+    #service{
+        padding: 22px;
+    }
+    .service-heading ,.service-heading2{
+        text-align: center;
+    }
+    .perent-service-logo1{
+        flex-direction: column;
+    }
+    .child-service-laptop{
+        width: 100%;
+        height: auto;
+    }
+    .child-service-lightbulb{
+        width: 100%;
+        height: auto;
+    }
+    .child-service-camera{
+        width: 100%;
+        height: auto;
+    }
+    .peresnt-service-logo2{
+        flex-direction: column;
+    }
+    .child-logo2-tv{
+        width: 100%;
+        height: auto;
+    }
+    .child-logo2-mobile{
+        width: 100%;
+        height: auto;
+    }
+    .child-logo2-layer{
+        width: 100%;
+        height: auto;
+    }
+    /* Reference */
+    .about-reference{
+        text-align: center;
+    }
+    .parent-reference{
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* Creativity */
+    #Creativity{
+        padding: 22px;
+    }
+    .about-creativity{
+        text-align: center;
+    }
+    .perent-creative{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .perent-creative2{
+        flex-direction: column;
+        gap: 30px;
+    }
+    /* Latest News */
+    .heading-news{
+        text-align: center;
+    }
+    .perent-news{
+        flex-direction: column;
+    }
+    /* Form */
+    .form-heading{
+        text-align: center;
+    }
+    .parent-form{
+        flex-direction: column;
+    }
+    /* Footer */
+    .parent-footer{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
