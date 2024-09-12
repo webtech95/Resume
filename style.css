@@ -496,7 +496,7 @@ margin-right: 50px;
 }
 .child-creative-pera1, .child-creative-pera2, .child-creative-pera3{
     width: 90%;
-    height: 93%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -552,7 +552,7 @@ margin-right: 50px;
 }
 .child-creative-pera4, .child-creative-pera5, .child-creative-pera6{
     width: 90%;
-    height: 93%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -598,6 +598,7 @@ margin-right: 50px;
     justify-content: center;
     width: 100%;
     height: 100%;
+    gap: 20px;
 }
 .child-News1-img{
     background-image: url(images/news\ 1.jpg);    
