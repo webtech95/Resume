@@ -3,31 +3,27 @@
     box-sizing: border-box;
 }
 @media only screen and (max-width:600px) {
-    #poster{background-image: url(images/beautiful-japanese-forest-scene.jpg);
+    #poster {
+        background-image: url(images/beautiful-japanese-forest-scene.jpg);
         height: 600px;
         background-size: cover;
     }
-    .focus{
-        background-color: rgba(0, 0,0,0.2);
-        width: 100%;
-        height: 600px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     .focus h2{
-        width: 100%;
         position: absolute;
-        top: 62%;
-        left: 60%;
+    left: 60%;
+    top: 62%;
+    transform: translate(-50%, -50%);
+
     }
     .dp{
         position: absolute;
-        top: 42;
+        top: 22%;
+        left: 35%;
+
     }
     /* Maim manu */
     #main-manu{
-        padding: 22px;
+        padding:40px;
     }
     .info{
         text-align: center;
@@ -44,7 +40,7 @@
     }
     /* My skills */
     #skills{
-        padding: 22px;
+        padding: 40px;
     }
     .perent-about-skill-Abilities{
         text-align: center;
@@ -61,13 +57,14 @@
     }
     /* My Service */
     #service{
-        padding: 22px;
+        padding: 40px;
     }
     .service-heading ,.service-heading2{
         text-align: center;
     }
     .perent-service-logo1{
         flex-direction: column;
+        gap: 5px;
     }
     .child-service-laptop{
         width: 100%;
@@ -83,6 +80,7 @@
     }
     .peresnt-service-logo2{
         flex-direction: column;
+        gap: 5px;
     }
     .child-logo2-tv{
         width: 100%;
@@ -97,6 +95,10 @@
         height: auto;
     }
     /* Reference */
+    #References{
+        align-items: center;
+        padding: 40px;
+    }
     .about-reference{
         text-align: center;
     }
@@ -104,36 +106,50 @@
         flex-direction: column;
         gap: 20px;
     }
+    .parent-reference img{
+        width: 100%;
+        height: auto;
+    }
     /* Creativity */
     #Creativity{
-        padding: 22px;
+        padding: 40px;
     }
     .about-creativity{
         text-align: center;
     }
-    .perent-creative{
+    .parent-creative{
         flex-direction: column;
         gap: 30px;
     }
-    .perent-creative2{
+    .parent-creative2{
         flex-direction: column;
         gap: 30px;
+        width: 100%;
     }
     /* Latest News */
+    #News{
+        background-color: f7f7f7;
+        padding: 40px;
+    }
     .heading-news{
         text-align: center;
     }
     .perent-news{
         flex-direction: column;
+        gap: 30px;
     }
     /* Form */
     .form-heading{
         text-align: center;
     }
     .parent-form{
+        padding: 22px;
         flex-direction: column;
     }
     /* Footer */
+    #footer{
+        padding: 40px;
+    }
     .parent-footer{
         flex-direction: column;
         gap: 30px;

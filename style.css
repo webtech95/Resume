@@ -1,68 +1,78 @@
-
 @font-face {
-    font-family:Buttercup ;
+    font-family: Buttercup;
     src: url(Font/Buttercup.ttf);
 }
+
 @font-face {
     font-family: Road_Rage;
     src: url(Font/Road_Rage.ttf);
 }
+
 @font-face {
     font-family: Stanford_Breath;
     src: url(Font/Stanford_Breath.ttf);
 }
-*{ margin: 0px 0px;
+
+* {
+    margin: 0px 0px;
     padding: 0%;
     box-sizing: border-box;
 }
+
 /* Backgroup-image-container */
-#poster{background-image: url(images/beautiful-japanese-forest-scene.jpg);
-height: 600px;
-background-size: cover;
+#poster {
+    background-image: url(images/beautiful-japanese-forest-scene.jpg);
+    height: 600px;
+    background-size: cover;
 }
-.focus{
-    background-color: rgba(0, 0,0,0.2);
+
+.focus {
+    background-color: rgba(0, 0, 0, 0.2);
     height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.focus h2{
+
+.focus h2 {
     color: #fff;
     font-size: 32px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-family:Road_Rage ;
+    font-family: Road_Rage;
     position: absolute;
     left: 50%;
     top: 55%;
     transform: translate(-50%, -50%);
-    text-shadow: rgb(0, 0, 0) 2px 3px ;
+    text-shadow: rgb(0, 0, 0) 2px 3px;
 }
-.dp{
+
+.dp {
     border-radius: 60%;
     border: solid rgb(38, 105, 76) 5px;
     width: 200px;
     height: 200px;
-    
     position: relative;
     position: absolute;
     top: 25%;
 }
+
 /* Information-about-me */
-#main-manu{
-        padding: 50px 0;
-}       
-.info{
+#main-manu {
+    padding: 60px 40px;
+}
+
+.info {
     display: block;
     font-family: Buttercup;
     font-size: 12px;
     text-transform: uppercase;
     color: #888;
     font-weight: 400;
-    letter-spacing:5px;
+    letter-spacing: 5px;
 }
-.about{
+
+.about {
     display: block;
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -71,19 +81,23 @@ background-size: cover;
     font-weight: bolder;
     letter-spacing: 5px;
 }
+
 /* Perent-container */
-.perent-main-manu{
+.perent-main-manu {
     display: flex;
     gap: 40px;
 }
-.child-main-img{
+
+.child-main-img {
     width: 280px;
     height: 320px;
 }
-.Child-main-pera{
+
+.Child-main-pera {
     font-family: 'Oswald', sans-serif;
 }
-.pera1{
+
+.pera1 {
     font-size: 12px;
     color: #888888;
     font-weight: 400;
@@ -92,14 +106,16 @@ background-size: cover;
     font-family: Oswald, sans-serif;
     line-height: 26.25px;
 }
-.pera2{
+
+.pera2 {
     font-size: 20px;
-    color: #101010    ;
+    color: #101010;
     font-weight: 700;
     font-family: Stanford_Breath;
     line-height: 35px;
 }
-.pera3{
+
+.pera3 {
     font-size: 15px;
     color: #888888;
     font-weight: 400;
@@ -108,26 +124,30 @@ background-size: cover;
     margin: 0 0 20px;
     line-height: 26.25px;
 }
+
 /* Child-container */
-.child-main-details{
-        display: flex;
-        gap: 50px;
-        padding-bottom: 30px;
-        font-family: Rambla, sans-serif;
-        line-height: 26.25px;
+.child-main-details {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 30px;
+    font-family: Rambla, sans-serif;
+    line-height: 26.25px;
 }
-.child-main-details p{
-        font-size: 15px;
-        color: #888888;
-        font-weight: 200;
-        padding:  0 0 20px;  
-        text-transform: capitalize;
-        font-weight: 700;
+
+.child-main-details p {
+    font-size: 15px;
+    color: #888888;
+    font-weight: 200;
+    padding: 0 0 20px;
+    text-transform: capitalize;
+    font-weight: 700;
 }
-.child-main-details b{
-        color: #101010;
+
+.child-main-details b {
+    color: #101010;
 }
-.about-button a{
+
+.about-button a {
     text-decoration: none;
     padding: 15px 32px;
     line-height: 20px;
@@ -139,32 +159,37 @@ background-size: cover;
     font-family: Rambla, sans-serif;
     text-transform: capitalize;
 }
-.about-button1{
+
+.about-button1 {
     background-color: black;
     color: white;
 }
-.about-button2{
+
+.about-button2 {
     color: #101010;
 }
-.about-button1:hover{
+
+.about-button1:hover {
     background-color: white;
     color: #101010;
 }
-.about-button2:hover{
+
+.about-button2:hover {
     background-color: #101010;
     color: white;
 }
+
 /* My skills */
-#skills{
-    padding-top: 50px;
-    padding-bottom: 40px;
+#skills {
+    padding: 60px 40px;
     font-family: Rambla, sans-serif;
     color: #888888;
-    background-color:#f7f7f7;
+    background-color: #f7f7f7;
     width: 100%;
     height: auto;
 }
-.perent-about-skill-Abilities{
+
+.perent-about-skill-Abilities {
     font-size: 12px;
     font-family: Buttercup;
     font-weight: 400;
@@ -172,7 +197,8 @@ background-size: cover;
     text-transform: uppercase;
     margin-bottom: 12px;
 }
-.perent-about-skills-my-skills{
+
+.perent-about-skills-my-skills {
     color: #101010;
     font-family: Road_Rage;
     margin-bottom: 30px;
@@ -181,102 +207,120 @@ background-size: cover;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
-.perent-about-skills{
+
+.perent-about-skills {
     display: flex;
 }
-.child-about-skills{
-font-family: 'Rambla', sans-serif;
-font-size: 15px;
-line-height: 25px;
-font-weight: 400;
-color: #888888;
-margin: 0 0 20px;
-width: 100%;
-margin-right: 50px;
+
+.child-about-skills {
+    font-family: 'Rambla', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #888888;
+    margin: 0 0 20px;
+    width: 100%;
+    margin-right: 50px;
 
 }
-.child-about-skills-pera8{
+
+.child-about-skills-pera8 {
     margin-bottom: 20px;
 }
-.child-skills-progress-bar{
+
+.child-skills-progress-bar {
     width: 100%;
     font-family: Road_Rage;
 }
-.percent1{
+
+.percent1 {
     position: absolute;
-    right :10px;
+    right: 10px;
 }
-.title-bar1{
+
+.title-bar1 {
     position: absolute;
     background-color: #101010;
     width: 40%;
     height: 5px;
 }
-.progress-bar1{
+
+.progress-bar1 {
     width: 100%;
     height: 5px;
     background-color: #fff;
 }
-.percent2{
+
+.percent2 {
     position: absolute;
-    right : 10px;
+    right: 10px;
 }
-.title-bar2{
+
+.title-bar2 {
     background-color: #101010;
     width: 30%;
     height: 5px;
     position: absolute;
 }
-.progress-bar2{
+
+.progress-bar2 {
     width: 100%;
     height: 5px;
     background-color: #fff;
 }
-.percent3{
+
+.percent3 {
     position: absolute;
-    right : 10px;
+    right: 10px;
 }
-.title-bar3{
+
+.title-bar3 {
     background-color: #101010;
     width: 45%;
     height: 5px;
     position: absolute;
 }
-.progress-bar3{
+
+.progress-bar3 {
     width: 100%;
     height: 5px;
     background-color: #fff;
 }
-.percent4{
+
+.percent4 {
     position: absolute;
-    right : 10px;
+    right: 10px;
 }
-.title-bar4{
+
+.title-bar4 {
     background-color: #101010;
     width: 35%;
     height: 5px;
     position: absolute;
 }
-.progress-bar4{
+
+.progress-bar4 {
     width: 100%;
     height: 5px;
     background-color: #fff;
 }
+
 /* My services */
-#service{
-    padding-top: 60px;
-    padding-bottom: 60px;
+#service {
+    padding: 60px 40px;
 }
-.service-heading{
+
+.service-heading {
     font-family: Buttercup;
     color: #888888;
     font-size: 12px;
     letter-spacing: 5px;
     line-height: 26.25px;
     font-weight: 400;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
-.service-heading2{
+
+.service-heading2 {
     font-family: Road_Rage;
     color: #101010;
     font-size: 30px;
@@ -285,86 +329,101 @@ margin-right: 50px;
     font-weight: 500;
     text-transform: uppercase;
 }
+
 /* Service-container-1 */
-.perent-service-logo1{
+.perent-service-logo1 {
     display: flex;
     font-family: Rambla, sans-serif;
+    gap: 40px;
 }
-.perent-service-logo1 h1{
+
+.perent-service-logo1 h1 {
     font-size: 18px;
     color: #101010;
 }
-.perent-service-logo1 p{
+
+.perent-service-logo1 p {
     font-size: 15px;
     color: #888;
 }
-.child-service-laptop{
-    width: 33%;
+
+.child-service-laptop {
+    width: 100%;
     margin-bottom: 30px;
     text-align: center;
     padding: 30px;
     border: 2px solid #ececec;
 }
-.child-service-lightbulb{
-    width: 33%;
+
+.child-service-lightbulb {
+    width: 100%;
     margin-bottom: 30px;
     text-align: center;
     padding: 30px;
     border: 2px solid #ececec;
 }
-.child-service-camera{
-    width: 33%;
+
+.child-service-camera {
+    width: 100%;
     margin-bottom: 30px;
     text-align: center;
     padding: 30px;
     border: 2px solid #ececec;
 }
+
 /* Service-container-2 */
-.peresnt-service-logo2{
+.peresnt-service-logo2 {
     display: flex;
-    font-family: Rambla, sans-serif;   
+    font-family: Rambla, sans-serif;
+    gap: 40px;
 }
-.peresnt-service-logo2 h1{
+
+.peresnt-service-logo2 h1 {
     font-size: 18px;
     color: #101010;
 }
-.peresnt-service-logo2 p{
+
+.peresnt-service-logo2 p {
     font-size: 15px;
     color: #888;
 }
-.child-logo2-tv{
-    width: 33%;
+
+.child-logo2-tv {
+    width: 100%;
     margin-bottom: 30px;
     text-align: center;
     padding: 30px;
     border: 2px solid #ececec;
 }
-.child-logo2-mobile{
-    width: 33%;
+
+.child-logo2-mobile {
+    width: 100%;
     margin-bottom: 30px;
     text-align: center;
     padding: 30px;
     border: 2px solid #ececec;
 }
-.child-logo2-layer{
-    width: 33%;
+
+.child-logo2-layer {
+    width: 100%;
     margin-bottom: 30px;
     text-align: center;
     padding: 30px;
     border: 2px solid #ececec;
 }
+
 /* My-reference */
-#References{
+#References {
     background-color: #f7f7f7;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 20px;
+    padding: 60px 40px;
 }
-.about-reference{
+
+.about-reference {
     font-family: Road_Rage;
     text-transform: uppercase;
 }
-.about-reference h4{
+
+.about-reference h4 {
     color: #888;
     font-size: 12px;
     letter-spacing: 5px;
@@ -372,23 +431,27 @@ margin-right: 50px;
     font-weight: 400;
     font-family: Buttercup;
 }
-.about-reference h2{
+
+.about-reference h2 {
     color: #101010;
     font-size: 30px;
     letter-spacing: 3px;
     font-weight: 500;
     line-height: 52.5px;
 }
+
 /* My-reference-container */
-.parent-reference{
+.parent-reference {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    gap: 40px;
 }
-.parent-reference h2{
+
+.parent-reference h2 {
     font-family: Road_Rage;
     font-size: 18px;
     color: #fff;
@@ -399,7 +462,8 @@ margin-right: 50px;
     top: 30px;
     left: 50px;
 }
-.parent-reference h3{
+
+.parent-reference h3 {
     font-family: Rambla, sans-serif;
     font-size: 13px;
     color: #fff;
@@ -409,65 +473,81 @@ margin-right: 50px;
     top: 55px;
     left: 50px;
 }
-.child-reference1,.child-reference2,.child-reference3{
-    width: 90%;
+
+.child-reference1,
+.child-reference2,
+.child-reference3 {
+    width: 100%;
     position: relative;
 }
-.parent-reference img{
-    width: 90%;
+
+.parent-reference img {
+    width: 100%;
     display: block;
 }
-.child-refer1, .child-refer2, .child-refer3{
-    width: 90%;
+
+.child-refer1,
+.child-refer2,
+.child-refer3 {
+    width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,.9);
+    background: rgba(0, 0, 0, .9);
     opacity: 0;
     transition: 0.3s;
 }
-.child-refer1:hover{
+
+.child-refer1:hover {
     opacity: 1;
 }
-.child-refer2:hover{
+
+.child-refer2:hover {
     opacity: 1;
 }
-.child-refer3:hover{
+
+.child-refer3:hover {
     opacity: 1;
 }
+
 /* Creativity */
-#Creativity{
+#Creativity {
     padding-top: 60px;
     padding-bottom: 60px;
     letter-spacing: 5px;
     text-transform: uppercase;
-    padding-left: 20px;
+    padding: 40px;
 }
-.about-creativity h4{
+
+.about-creativity h4 {
     color: #888888;
     font-size: 12px;
     font-weight: 400;
     line-height: 26.25px;
     font-family: Buttercup;
 }
-.about-creativity h2{
+
+.about-creativity h2 {
     color: #101010;
     font-size: 30px;
     font-weight: 500;
     line-height: 52.25px;
     font-family: Road_Rage;
 }
-/* perent-creativity-container-1 */
-.perent-creative{
+
+/* parent-creativity-container-1 */
+.parent-creative {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
+    gap: 40px;
 }
-.perent-creative h3{
+
+.parent-creative h3 {
     font-family: Road_Rage;
     font-size: 18px;
     color: #fff;
@@ -476,8 +556,9 @@ margin-right: 50px;
     position: absolute;
     top: 30px;
     left: 50px;
-} 
-.perent-creative p{
+}
+
+.parent-creative p {
     font-family: Rambla, sans-serif;
     font-size: 13px;
     color: #cccccc;
@@ -486,35 +567,46 @@ margin-right: 50px;
     top: 55px;
     left: 50px;
 }
-.child-creative1, .child-creative2, .child-creative3{
-    width: 90%;
+
+.child-creative1,
+.child-creative2,
+.child-creative3 {
+    width: 100%;
     position: relative;
 }
-.perent-creative img{
-    width: 90%;
+
+.parent-creative img {
+    width: 100%;
     display: block;
 }
-.child-creative-pera1, .child-creative-pera2, .child-creative-pera3{
-    width: 90%;
+
+.child-creative-pera1,
+.child-creative-pera2,
+.child-creative-pera3 {
+    width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,.9);
+    background: rgba(0, 0, 0, .9);
     opacity: 0;
     transition: 0.3s;
 }
-.child-creative-pera1:hover{
+
+.child-creative-pera1:hover {
     opacity: 1;
 }
-.child-creative-pera2:hover{
+
+.child-creative-pera2:hover {
     opacity: 1;
 }
-.child-creative-pera3:hover{
+
+.child-creative-pera3:hover {
     opacity: 1;
 }
+
 /* perent-creativity-container-2 */
-.perent-creative2{
+.parent-creative2 {
     width: 100%;
     height: 100%;
     display: flex;
@@ -522,8 +614,10 @@ margin-right: 50px;
     justify-content: center;
     padding-top: 30px;
     position: relative;
+    gap: 40px;
 }
-.perent-creative2 h3{
+
+.parent-creative2 h3 {
     font-family: Road_Rage;
     font-size: 18px;
     color: #fff;
@@ -532,8 +626,9 @@ margin-right: 50px;
     position: absolute;
     top: 30px;
     left: 50px;
-} 
-.perent-creative2 p{
+}
+
+.parent-creative2 p {
     font-family: Rambla, sans-serif;
     font-size: 13px;
     color: #cccccc;
@@ -542,40 +637,51 @@ margin-right: 50px;
     top: 55px;
     left: 50px;
 }
-.child-creative4, .child-creative5, .child-creative6{
-    width: 90%;
+
+.child-creative4,
+.child-creative5,
+.child-creative6 {
+    width: 100%;
     position: relative;
 }
-.perent-creative2 img{
-    width: 90%;
+
+.parent-creative2 img {
+    width: 100%;
     display: block;
 }
-.child-creative-pera4, .child-creative-pera5, .child-creative-pera6{
-    width: 90%;
+
+.child-creative-pera4,
+.child-creative-pera5,
+.child-creative-pera6 {
+    width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,.9);
+    background: rgba(0, 0, 0, .9);
     opacity: 0;
     transition: 0.3s;
 }
-.child-creative-pera4:hover{
+
+.child-creative-pera4:hover {
     opacity: 1;
 }
-.child-creative-pera5:hover{
+
+.child-creative-pera5:hover {
     opacity: 1;
 }
-.child-creative-pera6:hover{
+
+.child-creative-pera6:hover {
     opacity: 1;
 }
+
 /* Latest News */
-#News{
-    padding-top: 60px;
-    padding-bottom: 60px;
+#News {
+    padding: 60px 40px;
     background-color: #f7f7f7;
 }
-.heading-news h4{
+
+.heading-news h4 {
     font-family: Buttercup;
     font-size: 12px;
     color: #888;
@@ -583,7 +689,8 @@ margin-right: 50px;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
-.heading-news h2{
+
+.heading-news h2 {
     font-family: Road_Rage;
     font-size: 30px;
     color: #101010;
@@ -592,7 +699,8 @@ margin-right: 50px;
     text-transform: uppercase;
     line-height: 52.25px;
 }
-.perent-news{
+
+.perent-news {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -600,34 +708,41 @@ margin-right: 50px;
     height: 100%;
     gap: 20px;
 }
-.child-News1-img{
-    background-image: url(images/news\ 1.jpg);    
+
+.child-News1-img {
+    background-image: url(images/news\ 1.jpg);
     height: 325px;
     background-size: cover;
     transition: 0.5s;
 }
-.child-News1-img:hover{
+
+.child-News1-img:hover {
     transform: scale(1.1);
 }
-.child-News1{
+
+.child-News1 {
     font-family: Rambla, sans-serif;
     background-color: #fff;
     overflow: hidden;
     width: 100%;
 }
-.second-child-News1{
+
+.second-child-News1 {
     padding: 20px;
 }
-.second-child-News1 h2{
-   font-size: 13px;
-    color: #888!important;
+
+.second-child-News1 h2 {
+    font-size: 13px;
+    color: #888 !important;
 }
-.second-child-News1 b{
+
+.second-child-News1 b {
     color: #101010;
     font-weight: 700;
     font-size: 13px;
 }
-.second-child-News1 h5{
+
+.second-child-News1 h5 {
     color: #101010;
     font-family: Oswald, sans-serif;
     font-weight: 500;
@@ -635,40 +750,48 @@ margin-right: 50px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-.second-child-News1 p{
+
+.second-child-News1 p {
     font-size: 15px;
     line-height: 1.75em;
     font-weight: 400;
     color: #888;
 }
-.child-News2-img{
+
+.child-News2-img {
     background-image: url(images/news\ 2.jpg);
     height: 325px;
     background-size: cover;
     transition: 0.5s;
 }
-.child-News2-img:hover{
+
+.child-News2-img:hover {
     transform: scale(1.1);
 }
-.child-News2{
+
+.child-News2 {
     font-family: Rambla, sans-serif;
     background-color: #fff;
     overflow: hidden;
     width: 100%;
 }
-.second-child-News2{
+
+.second-child-News2 {
     padding: 20px;
 }
-.second-child-News2 h2{
+
+.second-child-News2 h2 {
     font-size: 13px;
-    color: #888!important;
+    color: #888 !important;
 }
-.second-child-News2 b{
+
+.second-child-News2 b {
     color: #101010;
     font-weight: 700;
     font-size: 13px;
 }
-.second-child-News2 h5{
+
+.second-child-News2 h5 {
     color: #101010;
     font-family: Oswald, sans-serif;
     font-weight: 500;
@@ -676,40 +799,48 @@ margin-right: 50px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-.second-child-News2 p{
+
+.second-child-News2 p {
     font-size: 15px;
     line-height: 1.75em;
     font-weight: 400;
     color: #888;
 }
-.child-News3-img{
+
+.child-News3-img {
     background-image: url(images/news\ 3.jpg);
     height: 325px;
     background-size: cover;
     transition: 0.5s;
 }
-.child-News3-img:hover{
+
+.child-News3-img:hover {
     transform: scale(1.1);
 }
-.child-News3{
+
+.child-News3 {
     font-family: Rambla, sans-serif;
     background-color: #fff;
     overflow: hidden;
     width: 100%;
 }
-.second-child-News3{
+
+.second-child-News3 {
     padding: 20px;
 }
-.second-child-News3 h2{
+
+.second-child-News3 h2 {
     font-size: 13px;
-    color: #888!important;
+    color: #888 !important;
 }
-.second-child-News3 b{
+
+.second-child-News3 b {
     color: #101010;
     font-weight: 700;
     font-size: 13px;
 }
-.second-child-News3 h5{
+
+.second-child-News3 h5 {
     color: #101010;
     font-family: Oswald, sans-serif;
     font-weight: 500;
@@ -717,22 +848,26 @@ margin-right: 50px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-.second-child-News3 p{
+
+.second-child-News3 p {
     font-size: 15px;
     line-height: 1.75em;
     font-weight: 400;
     color: #888;
 }
+
 /* Form Details */
-#form{
-    padding-top: 60px;
+#form {
+    padding: 60px 40px;
     padding-bottom: 140px;
 }
-.form-heading{
+
+.form-heading {
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
 }
-.form-heading h5{
+
+.form-heading h5 {
     color: #888;
     font-size: 12px;
     letter-spacing: 5px;
@@ -740,7 +875,8 @@ margin-right: 50px;
     line-height: 26.25px;
     font-family: Buttercup;
 }
-.forn-heading h2{
+
+.forn-heading h2 {
     color: #101010;
     font-size: 30px;
     letter-spacing: 3px;
@@ -748,36 +884,42 @@ margin-right: 50px;
     line-height: 52.25px;
     font-family: Road_Rage
 }
-.parent-form{
+
+.parent-form {
     font-family: Rambla, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.child-info{
+
+.child-info {
     width: 100%;
     height: auto;
 }
-.child-info b{
+
+.child-info b {
     text-transform: uppercase;
     font-family: Rambla, sans-serif;
     font-size: 15px;
     color: #101010;
     font-weight: 700;
 }
-.child-info p{
+
+.child-info p {
     font-size: 15px;
     color: #888888;
     line-height: 42px;
 }
-.child-form h3{
+
+.child-form h3 {
     color: #101010;
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase
 }
-.child-form input{
+
+.child-form input {
     border: none transparent;
     font-size: 15px;
     color: #888;
@@ -785,11 +927,13 @@ margin-right: 50px;
     border-bottom: 1px solid #ececec;
     margin-bottom: 20px;
 }
-.button{
+
+.button {
     position: absolute;
     right: 28%;
     margin: 40px;
 }
+
 .button a {
     text-decoration: none;
     padding: 15px 32px;
@@ -801,46 +945,55 @@ margin-right: 50px;
     font-family: Rambla, sans-serif;
     text-transform: capitalize;
 }
-.button1{
+
+.button1 {
     background-color: black;
     color: white;
 }
-.button1:hover{
+
+.button1:hover {
     background-color: white;
     color: #101010;
 }
+
 /* Footer */
-#footer{
+#footer {
     padding-top: 40px;
     padding-bottom: 40px;
     padding: 120px;
     background-color: #f7f7f7;
 }
-.parent-footer{
+
+.parent-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.parent-footer1{
+
+.parent-footer1 {
     font-family: Rambla, sans-serif;
     font-size: 14px;
     line-height: 26px;
     color: #101010;
 }
-.parent-footer2{
-    font-family: Road_Rage ;
+
+.parent-footer2 {
+    font-family: Road_Rage;
     letter-spacing: 3px;
     line-height: 30px;
     color: #101010;
 }
-.parent-footer2 h4{
+
+.parent-footer2 h4 {
     font-weight: 500;
     font-size: 40px;
 }
-.parent-footer h2{
+
+.parent-footer h2 {
     font-size: 13px;
     font-weight: 400;
 }
-.parent-footer3{
+
+.parent-footer3 {
     align-items: baseline;
 }
