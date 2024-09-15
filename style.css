@@ -36,7 +36,7 @@
     font-family: Road_Rage;
     position: absolute;
     left: 50%;
-    top: 55%;
+    top: 65%;
     transform: translate(-50%, -50%);
     text-shadow: rgb(0, 0, 0) 2px 3px;
 }
@@ -47,7 +47,7 @@
     width: 200px;
     height: 200px;
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 42%;
 }
 
