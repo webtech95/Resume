@@ -1,156 +1,196 @@
-*{padding: 0 0 ;
+* {
+    padding: 0 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 @media only screen and (max-width:600px) {
-    #poster {
-        background-image: url(images/beautiful-japanese-forest-scene.jpg);
-        height: 600px;
-        background-size: cover;
+
+    .posrer-img{
+        width: 100%;
+        height: auto;
+        position: relative;
     }
     .focus h2{
+        font-size: small;
         position: absolute;
-    left: 60%;
-    top: 62%;
-    transform: translate(-50%, -50%);
+        top: 70%;
+        left: 50%;
 
     }
     .dp{
+        width: 100px;
+        height: auto;
         position: absolute;
         top: 22%;
-        left: 35%;
+        left: 40%;
+    }
 
-    }
     /* Maim manu */
-    #main-manu{
-        padding:40px;
+    #main-manu {
+        padding: 40px;
     }
-    .info{
+
+    .info {
         text-align: center;
     }
-    .about{
+
+    .about {
         text-align: center;
     }
-    .perent-main-manu{
+
+    .perent-main-manu {
         flex-direction: column;
     }
-    .child-main-img{
+
+    .child-main-img {
         width: 100%;
         height: auto;
     }
+
     /* My skills */
-    #skills{
+    #skills {
         padding: 40px;
     }
-    .perent-about-skill-Abilities{
+
+    .perent-about-skill-Abilities {
         text-align: center;
     }
-    .perent-about-skills-my-skills{
+
+    .perent-about-skills-my-skills {
         text-align: center;
     }
-    .perent-about-skills{
+
+    .perent-about-skills {
         flex-direction: column;
     }
-    .child-main-details{
+
+    .child-main-details {
         flex-direction: column;
         gap: 0;
     }
+
     /* My Service */
-    #service{
+    #service {
         padding: 40px;
     }
-    .service-heading ,.service-heading2{
+
+    .service-heading,
+    .service-heading2 {
         text-align: center;
     }
-    .perent-service-logo1{
+
+    .perent-service-logo1 {
         flex-direction: column;
         gap: 5px;
     }
-    .child-service-laptop{
+
+    .child-service-laptop {
         width: 100%;
         height: auto;
     }
-    .child-service-lightbulb{
+
+    .child-service-lightbulb {
         width: 100%;
         height: auto;
     }
-    .child-service-camera{
+
+    .child-service-camera {
         width: 100%;
         height: auto;
     }
-    .peresnt-service-logo2{
+
+    .peresnt-service-logo2 {
         flex-direction: column;
         gap: 5px;
     }
-    .child-logo2-tv{
+
+    .child-logo2-tv {
         width: 100%;
         height: auto;
     }
-    .child-logo2-mobile{
+
+    .child-logo2-mobile {
         width: 100%;
         height: auto;
     }
-    .child-logo2-layer{
+
+    .child-logo2-layer {
         width: 100%;
         height: auto;
     }
+
     /* Reference */
-    #References{
+    #References {
         align-items: center;
         padding: 40px;
     }
-    .about-reference{
+
+    .about-reference {
         text-align: center;
     }
-    .parent-reference{
+
+    .parent-reference {
         flex-direction: column;
         gap: 20px;
     }
-    .parent-reference img{
+
+    .parent-reference img {
         width: 100%;
         height: auto;
     }
+
     /* Creativity */
-    #Creativity{
+    #Creativity {
         padding: 40px;
     }
-    .about-creativity{
+
+    .about-creativity {
         text-align: center;
     }
-    .parent-creative{
+
+    .parent-creative {
         flex-direction: column;
         gap: 30px;
     }
-    .parent-creative2{
+
+    .parent-creative2 {
         flex-direction: column;
         gap: 30px;
         width: 100%;
     }
+
     /* Latest News */
-    #News{
+    #News {
         background-color: f7f7f7;
         padding: 40px;
     }
-    .heading-news{
+
+    .heading-news {
         text-align: center;
     }
-    .perent-news{
+
+    .perent-news {
         flex-direction: column;
         gap: 30px;
     }
+
     /* Form */
-    .form-heading{
+    .form-heading {
         text-align: center;
     }
-    .parent-form{
+
+    .parent-form {
         padding: 22px;
         flex-direction: column;
     }
+
     /* Footer */
-    #footer{
+    #footer {
         padding: 40px;
     }
-    .parent-footer{
+
+    .parent-footer {
         flex-direction: column;
         gap: 30px;
     }

@@ -19,19 +19,13 @@
     box-sizing: border-box;
 }
 
-/* Backgroup-image-container */
-#poster {
-    background-image: url(images/beautiful-japanese-forest-scene.jpg);
-    height: 600px;
-    background-size: cover;
+/* Header */
+#poster{
+    position: relative;
 }
-
-.focus {
-    background-color: rgba(0, 0, 0, 0.2);
+.posrer-img {
+    width: 100%;
     height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .focus h2 {
@@ -52,9 +46,9 @@
     border: solid rgb(38, 105, 76) 5px;
     width: 200px;
     height: 200px;
-    position: relative;
     position: absolute;
     top: 25%;
+    left: 42%;
 }
 
 /* Information-about-me */
@@ -710,10 +704,11 @@
 }
 
 .child-News1-img {
-    background-image: url(images/news\ 1.jpg);
-    height: 325px;
-    background-size: cover;
+    width: 100%;
+    height: auto;
     transition: 0.5s;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .child-News1-img:hover {
@@ -725,6 +720,7 @@
     background-color: #fff;
     overflow: hidden;
     width: 100%;
+    border: 1px transparent;
 }
 
 .second-child-News1 {
@@ -759,10 +755,11 @@
 }
 
 .child-News2-img {
-    background-image: url(images/news\ 2.jpg);
-    height: 325px;
-    background-size: cover;
+    width: 100%;
+    height: auto;
     transition: 0.5s;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .child-News2-img:hover {
@@ -774,6 +771,7 @@
     background-color: #fff;
     overflow: hidden;
     width: 100%;
+    border: 1px transparent;
 }
 
 .second-child-News2 {
@@ -808,10 +806,11 @@
 }
 
 .child-News3-img {
-    background-image: url(images/news\ 3.jpg);
-    height: 325px;
-    background-size: cover;
+    width: 100%;
+    height: auto;
     transition: 0.5s;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .child-News3-img:hover {
@@ -823,6 +822,7 @@
     background-color: #fff;
     overflow: hidden;
     width: 100%;
+    border: 1px transparent;
 }
 
 .second-child-News3 {
