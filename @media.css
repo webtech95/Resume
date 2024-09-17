@@ -6,6 +6,7 @@
 
 @media only screen and (max-width:600px) {
 
+
     .posrer-img{
         width: 100%;
         height: auto;
@@ -14,7 +15,7 @@
     .focus h2{
         font-size: small;
         position: absolute;
-        top: 70%;
+        top: 75%;
         left: 50%;
 
     }
@@ -22,7 +23,7 @@
         width: 100px;
         height: auto;
         position: absolute;
-        top: 22%;
+        top: 18%;
         left: 40%;
     }
 
@@ -60,17 +61,31 @@
     .perent-about-skills-my-skills {
         text-align: center;
     }
+    .child-about-skills{
+        margin-right: 0;
+    }
 
     .perent-about-skills {
         flex-direction: column;
+        width: 100%;
     }
-
-    .child-main-details {
-        flex-direction: column;
-        gap: 0;
+    .child-skills-progress-bar{
+        width: 100%;
     }
-
-    /* My Service */
+    .title-bar1{
+        width: 72%;
+    }
+    .title-bar2{
+        width: 58%;
+    }
+    .title-bar3{
+        width: 75%;
+    }
+    .title-bar4{
+        width: 65%;
+    }
+  
+   /* My Service */
     #service {
         padding: 40px;
     }
