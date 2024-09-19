@@ -7,8 +7,11 @@
 @media only screen and (max-width:600px) {
 
 #slidebar{
-    display:none;
+    display: none;
 }
+    .aside-container{
+        display: none;
+    }
     .posrer-img{
         width: 100%;
         height: auto;
