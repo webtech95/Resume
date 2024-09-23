@@ -1008,6 +1008,9 @@
     margin-bottom: 30px;
     outline: none;
 }
+.massage-tx{
+    padding-bottom: 110px;
+}
 
 .button {
     position: absolute;
