@@ -1,25 +1,65 @@
-* {
-    padding: 0 0;
-    margin: 0;
-    box-sizing: border-box;
+/* Mobile view styles */
+@media only screen and (max-width: 600px) {
+
+    /* Reset default padding, margin, and box-sizing */
+    .toggle-btn {
+        display: block;
+        /* Show the toggle button */
+    }
+
+    /* Sidebar styles for mobile */
+    .aside-container {
+        left: -250px;
+        /* Keep the sidebar hidden initially */
+    }
+
+    .aside-container.open {
+        left: 0;
+        /* Slide the sidebar in */
+    }
+
+    /* Adjust the position and size of the toggle button */
+    .toggle-btn {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 1000;
+        /* Ensure it stays on top */
+    }
+
+    /* Add padding to body when the sidebar is open */
+    body.sidebar-open {
+        padding-left: 250px;
+        /* Push the content to the right */
+    }
 }
 
 @media only screen and (max-width:600px) {
 
+    #slidebar{
+        z-index: -1;
+    }
 
-    .posrer-img{
+
+    .aside-container2 {
+        width: 100%;
+    }
+
+    .posrer-img {
         width: 100%;
         height: auto;
         position: relative;
     }
-    .focus h2{
+
+    .focus h2 {
         font-size: small;
         position: absolute;
         top: 75%;
         left: 50%;
 
     }
-    .dp{
+
+    .dp {
         width: 100px;
         height: auto;
         position: absolute;
@@ -61,7 +101,8 @@
     .perent-about-skills-my-skills {
         text-align: center;
     }
-    .child-about-skills{
+
+    .child-about-skills {
         margin-right: 0;
     }
 
@@ -69,23 +110,28 @@
         flex-direction: column;
         width: 100%;
     }
-    .child-skills-progress-bar{
+
+    .child-skills-progress-bar {
         width: 100%;
     }
-    .title-bar1{
+
+    .title-bar1 {
         width: 72%;
     }
-    .title-bar2{
+
+    .title-bar2 {
         width: 58%;
     }
-    .title-bar3{
+
+    .title-bar3 {
         width: 75%;
     }
-    .title-bar4{
+
+    .title-bar4 {
         width: 65%;
     }
-  
-   /* My Service */
+
+    /* My Service */
     #service {
         padding: 40px;
     }
