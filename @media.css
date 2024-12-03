@@ -4,27 +4,26 @@
     /* Reset default padding, margin, and box-sizing */
     .toggle-btn {
         display: block;
-        /* Show the toggle button */
+
     }
 
     /* Sidebar styles for mobile */
     .aside-container {
-        left: -250px;
-        /* Keep the sidebar hidden initially */
+        left: -100%;
     }
 
     .aside-container.open {
         left: 0;
-        /* Slide the sidebar in */
+        width: 60%;
+
     }
 
-    /* Adjust the position and size of the toggle button */
+
     .toggle-btn {
         position: fixed;
-        top: 20px;
-        left: 20px;
-        z-index: 1000;
-        /* Ensure it stays on top */
+        top: 10px;
+        left: 10px;
+        z-index: 1;
     }
 
     /* Add padding to body when the sidebar is open */
@@ -36,12 +35,8 @@
 
 @media only screen and (max-width:600px) {
 
-    #slidebar{
-        z-index: -1;
-    }
-
-
     .aside-container2 {
+        z-index: -1;
         width: 100%;
     }
 
@@ -87,6 +82,11 @@
     .child-main-img {
         width: 100%;
         height: auto;
+    }
+
+    .child-main-details{
+        flex-direction: column;
+        row-gap: 0px;
     }
 
     /* My skills */
